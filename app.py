@@ -78,7 +78,7 @@ Output (JSON only):
 
     try:
         # Use the latest stable Gemini model, as we learned older names can be deprecated
-        model = genai.GenerativeModel('gemini-pro-latest')
+        model = genai.GenerativeModel('gemini-2.5-pro')
         response = model.generate_content(prompt)
         
         # Clean the response to ensure it's valid JSON
